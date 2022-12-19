@@ -1,66 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MOD3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Brand</a>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-target="#collapsable-nav" data-toggle="collapse"  aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav">
+                <li><a href="#Chicken-artical">Chicken</a></li>
+                <li><a href="#Beef-artical">Beef</a></li>
+                <li><a href="#Sushi-artical">Sushi</a></li>   
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="Text_center">
+    <h1  id="H_Text_center">Our Menu</h1>
+  </div>
+
+  <div id="main-content"  class="container">
+
+
+    <div id="home-tiles" class="row ">
+      <div  class="col-md-4 col-sm-6 col-xs-12 ">
+        <div class="artical">
+          <p class="artical-name" id="Chicken-artical">Chicken</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Dignissimos porro accusantium adipisci similique corporis
+            enim magni placeat iusto tempore dolor dicta dolores sequi
+             qui maiores cum, cupiditate magnam aut sit!
+           </p>
+        </div>
+       </div>
+      
+      
+      <div class="col-md-4 col-sm-6 col-xs-12 ">
+        <div class="artical">
+          <p class="artical-name" id="Beef-artical">Beef</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos porro accusantium adipisci similique corporis
+             enim magni placeat iusto tempore dolor dicta dolores sequi
+              qui maiores cum, cupiditate magnam aut sit!
+         </p>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 col-sm-12 col-xs-12 ">
+        <div class="artical">
+          <p class="artical-name" id="Sushi-artical">Sushi</p >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos porro accusantium adipisci similique corporis
+               enim magni placeat iusto tempore dolor dicta dolores sequi
+                qui maiores cum, cupiditate magnam aut sit!
+           </p>
+        </div>
       </div>
   
-            <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="navbar-form navbar-left">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Link</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+    </div><!-- End of #home-tiles -->
+  </div><!-- End of #main-content -->
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
